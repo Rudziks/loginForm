@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-image: url(./img/bgLogin.jpg);
+}
+
+form1 {
+    justify-content: center;
+    margin-top: 11rem;
+}
+
+.form1{
+    backdrop-filter: blur(3px);
+    width: 500px;
+    height: 650px;
+    border:solid 2px rgb(1, 255, 221);
+    box-shadow: 3px 3px 50px rgb(1, 255, 221);
+    border-radius:50px;
+    margin: auto;
+    margin-top:2rem;
+    transition: 0.8s;
+    text-align: center;
+}
+
+.form1 h2 {
+    color: white;
+    margin-bottom: 3rem;
+    font-size: xx-large;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 800;
+}
+
+.form1 p{
+    text-align: left;
+    margin-left: 5rem;
+    font-size: 25px;
+    color: white;
+    text-shadow:3px 3px 2px black;
+}
+
+.form1 input {
+    border-radius: 20px;
+    border: rgb(1, 255, 221) solid 1px;
+    box-shadow: 3px 3px 15px rgba(1, 255, 221, 0.356);
+    width: 350px;
+    height: 1.5rem;
+    padding: 1.5rem;
+    background-color: transparent;
+    font-size: larger;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+#createSbt {
+    border: none;
+    width: 10rem;
+    height: 1.8rem;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    padding: 0.6rem 0rem 2.4rem 0rem;
+    box-shadow: none;
+}
+
+.createAcc1 {
+    width: 20rem;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: larger;
+}
+
+#createAcc {
+    color: white;
+    text-decoration: none;
+}
+
+.form1:hover{
+    box-shadow:5px 5px 150px rgb(130, 238, 224);
+    transition: 0.8s;
+}
+
+.form1 input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+.form1 input:hover {
+    border: 1px solid rgb(1, 255, 221);
+    color: white;
+    box-shadow:5px 5px 15px rgb(130, 238, 224);
+    transition: 0.5s;
+}
+
+.form1 input:focus {
+    outline: none;
+    font-size: larger;
+}
+
+#createSbt:hover {
+    box-shadow:2px 2px 10px rgba(32, 32, 32, 0.699);
+    color: white;
+    transition: 0.5s;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.createAcc1:hover{
+    text-shadow:3px 3px 5px black;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 0.45s;
+}
+
+#error{
+    color: red;
+    font-size: 20px;
+    text-shadow: none;
+    margin-top: 1.5rem;
+    margin: auto;
+    text-align: center;
+}
